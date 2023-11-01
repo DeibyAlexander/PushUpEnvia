@@ -13,11 +13,8 @@ CREATE TABLE Usuario(
 )
 
 
-SELECT * FROM Usuario
+SELECT * FROM Usuario;
 
-INSERT INTO Usuario (id_usuario, nombre, direccion, telefono, correo, contraseña, rol) VALUES
-(1, "Mariana Aceros", "calle 98", 3135667656, "mariana@gmail.com", "mariana12345", "USER" ),
-(2, "Nataly Mendoza", "calle 08", 3156774532, "nataly@gmail.com", "nataly12345", "ADMIN" )
 
 
 
